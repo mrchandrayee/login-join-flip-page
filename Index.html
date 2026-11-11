@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Clock</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <div class="card" id="card">
+    <div class="face front">
+      <div class="header">
+        <h2>Welcome Back</h2>
+        <p>Enter your details to continue</p>
+      </div>
+      <div class="inputs">
+        <input type="email" placeholder="Email Address">
+        <input type="password" placeholder="Password">
+      </div>
+      <button class="submit">Sign In</button>
+      <div class="footer">
+        Don't have an account? <span onclick="flip()">Join now</span>
+      </div>
+    </div>
+
+    <div class="face back">
+      <div class="header">
+        <h2>Create Account</h2>
+        <p>Start your journey with us</p>
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+        <input type="password" placeholder="Create Password">
+      </div>
+      <button class="submit">Get Started</button>
+      <div class="footer">
+        Already a member? <span onclick="flip()">Log in</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
